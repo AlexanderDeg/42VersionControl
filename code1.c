@@ -6,7 +6,7 @@
 /*   By: ade-geor <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 11:16:29 by ade-geor          #+#    #+#             */
-/*   Updated: 2021/09/15 11:16:32 by ade-geor         ###   ########.fr       */
+/*   Updated: 2022/03/02 16:34:29 by bocal            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,9 @@ size_t	ft_strlen(const char *s)
 	int	i;
 
 	i = 0;
-	while (s[i])
+	while (s[i]){
+		printf("Boo");
 		i++;
+	}	
 	return (i);
 }
