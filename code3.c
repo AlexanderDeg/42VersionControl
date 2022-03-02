@@ -6,7 +6,7 @@
 /*   By: ade-geor <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 11:14:10 by ade-geor          #+#    #+#             */
-/*   Updated: 2021/09/15 11:14:11 by ade-geor         ###   ########.fr       */
+/*   Updated: 2022/03/02 16:34:38 by mmorriga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 
 	dptr = (unsigned char *)dst;
 	sptr = (unsigned char *)src;
-	i = 0;
+	i = 5;
 	if (dptr < sptr)
 	{
 		while (i < len)
